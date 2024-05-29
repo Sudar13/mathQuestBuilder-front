@@ -1,0 +1,108 @@
+.flex {
+    display: flex;
+    height: 100%;
+}
+
+.rightDiv {
+    background-color: #14245E;
+    color: #FFFFFF;
+    width: 50%;
+    height: 100vh;
+}
+
+.outside {
+    display: flex;
+    padding-top: 35vh;
+    margin-left: 100px;
+    /* margin-right: 40px; */
+    width: 85%;
+    flex-direction: column;
+    align-items: left;
+}
+.outside_right {
+    display: flex;
+    padding-top: 24vh;
+    margin-left: 100px;
+    width: 85%;
+    flex-direction: column;
+}
+
+
+.header {
+    margin-bottom: 50px;
+    font-family: "Monsterrat";
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.text {
+    margin-bottom: 75px;
+    /* width: 606px; */
+    font-family: "Monsterrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.leftDiv {
+    width: 50%;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-position: 8% 5%;
+    background-size: 35%;
+}
+
+
+.shadow_white {
+    width: max-content;
+    height: max-content;
+    border-radius: 3px;
+    padding: 14px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    font-family: 'Monsterrat';
+    transition: background-color 1s ease-out;
+    box-shadow: 10px 10px #000000;
+    background-color: #FFFFFF;
+    color: #14245E;
+    background-image: url(../img/arrow_blue.png);
+    background-position: 84% 52%;
+    background-repeat: no-repeat;
+    transition: box-shadow .2s ease-out, background-position .3s ease-out;
+    padding-right: 50px;
+}
+
+.shadow_white:disabled {
+    box-shadow: 10px 10px #283872;
+    background-color: #FFFFFF;
+    color: #A9B3D5;
+    border: none;
+}
+
+.shadow_white:hover {
+    background-color: #FFFFFF;
+    color: #283872;
+    border: none;
+    box-shadow: 10px 10px #0c163a;
+    background-position: 90% 52%;
+}
+
+.shadow_white:focus {
+    background-color: #FFFFFF;
+    color: #14245E;
+    border: none;
+    box-shadow: 10px 10px #000000;
+    background-position: 84% 61%;
+}
+
+.shadow_white:active {
+    background-color: #FFFFFF;
+    color: #14245E;
+    border: none;
+    box-shadow: 10px 10px #000000;
+    background-position: 90% 61%;
+}

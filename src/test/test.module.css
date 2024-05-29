@@ -1,0 +1,57 @@
+.header {
+    height: 40px;
+    background-image: url('../img/logo.png');
+    background-position: 5% ;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    padding-top: 50px;
+
+}
+
+.main {
+    padding: 30px 160px 190px 160px;
+}
+
+.download {
+    background-color: #283872;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 80px;
+}
+
+.myButton {
+    width: max-content;
+    height: max-content;
+    border-radius: 3px;
+    padding: 14px 30px;
+    border: none;
+    background-color: #14245E;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    font-family: 'Monsterrat';
+    margin-left: 50px;
+    transition: background-color 1s ease-out;
+}
+
+.myButton:enabled:hover {
+    background-color: #283872;
+    border: none;
+}
+
+.myButton:focus {
+    background-color: #14245E;
+    border: none;
+}
+
+.myButton:active {
+    background-color: #14245E;
+    border: none;
+}
+
+.containerButton {
+    display: flex;
+    justify-content: space-between;
+}

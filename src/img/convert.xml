@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="category">
+    <category>
+      <text>$course$/top/Тест по алгебре вар.11</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+
+
+    
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Тест по алгебре вар.11/Матрицы</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+
+<!-- question: 3858047 -->
+  <question type="cloze">
+    <name>
+      <text>Матрицы - вариант 7814</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[ <p>Определите размер матрицы</p><p> \( \begin{pmatrix}2 & 6 & 2 & 0\\5 & 8 & 7 & 5\\4 & 7 & 4 & 2\\9 & 2 & 7 & 0 & \end{pmatrix} \)</p><p> {1:NUMERICAL:=4:0.0#OK} X {1:NUMERICAL:=4:0.0#OK} </p> ]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+  
+
+
+
+
+    
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Тест по алгебре вар.11/Определители</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+
+<!-- question: 4597595 -->
+  <question type="cloze">
+    <name>
+      <text>Определители - вариант 7570</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[ <p>Вычислите определитель матрицы А (при необходимости округлите до целого числа)</p><p> \( \begin{pmatrix}-2 & -8 & -6\\9 & 7 & 8\\-3 & 4 & -5 & \end{pmatrix} \)</p><p> Определитель: {1:NUMERICAL:=-376:0.0#OK}</p> ]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+  
+
+
+
+
+    
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Тест по алгебре вар.11/Обратная матрица</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  
+
+
+
+
+    
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Тест по алгебре вар.11/Ранг</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  
+
+
+
+
+    
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Тест по алгебре вар.11/Матричные уравнения</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  
+
+
+
+
+    
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Тест по алгебре вар.11/Системы линейных уравнений</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  
+
+
+
+
+    
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Тест по алгебре вар.11/Скалярное, векторное, смешанное произведение векторов</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  
+
+
+
+
+</quiz>

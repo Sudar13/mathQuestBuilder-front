@@ -1,0 +1,86 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.taskContainer {
+    display: flex;
+    align-items: center;
+    font-family: "Monsterrat";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    justify-content: center;
+}
+
+.matrixSkob {
+    display: flex;
+    font-family: "Monsterrat";
+    font-weight: 200;
+    font-size: 70px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.722);
+}
+
+.matrix {
+    font-family: "Monsterrat";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+.nameMatrix {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+
+
+.containerSumMatrix {
+    display: flex;
+    justify-content: center;
+}
+
+.questionNumber {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.condition,
+.answer {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 23px;
+    align-items: center;
+}
+
+.task {
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.linearEquations {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 23px;
+}
+
+.vector {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+}

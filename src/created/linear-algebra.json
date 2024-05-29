@@ -1,0 +1,132 @@
+{
+    "name": "Themes",
+    "type": "theme",
+    "themes": [
+        {
+            "title": "Матрицы",
+            "complexity": [
+                {
+                    "easy": "0-3",
+                    "medium": "4",
+                    "hard": "5"
+                }
+            ],
+            "english_name": "matrix",
+            "isVisible": false,
+            "count": 1,
+            "selectedComplexity": 0
+        },
+        {
+            "title": "Транспонирование",
+            "complexity": [
+                {
+                    "easy": "0",
+                    "medium": "0",
+                    "hard": "1"
+                }
+            ],
+            "english_name": "determinant",
+            "isVisible": false,
+            "count": 1,
+            "selectedComplexity": 0
+        },
+        {
+            "title": "Произведение матриц",
+            "complexity": [
+                {
+                    "easy": "0",
+                    "medium": "0",
+                    "hard": "1"
+                }
+            ],
+            "english_name": "inbertible_matrix",
+            "isVisible": false,
+            "count": 1,
+            "selectedComplexity": 0
+        },
+        {
+            "title": "Равенство матриц",
+            "complexity": [
+                {
+                    "easy": "0",
+                    "medium": "0",
+                    "hard": "0"
+                }
+            ],
+            "english_name": "rank",
+            "isVisible": false,
+            "count": 1,
+            "selectedComplexity": 0
+        },
+        {
+            "title": "Произведение матрицы на число",
+            "complexity": [
+                {
+                    "easy": "0",
+                    "medium": "0",
+                    "hard": "1"
+                }
+            ],
+            "english_name": "matrix_equation",
+            "isVisible": false,
+            "count": 1,
+            "selectedComplexity": 0
+        },
+        {
+            "title": "Св-во сложения матриц (ассоциативность)",
+            "complexity": [
+                {
+                    "easy": "0",
+                    "medium": "0",
+                    "hard": "0"
+                }
+            ],
+            "english_name": "linear_equation_system",
+            "isVisible": false,
+            "count": 1,
+            "selectedComplexity": 0
+        },
+        {
+            "title": "Св-во сложения матриц (коммутативность)",
+            "complexity": [
+                {
+                    "easy": "0",
+                    "medium": "0",
+                    "hard": "0"
+                }
+            ],
+            "english_name": "matrix_method",
+            "isVisible": false,
+            "count": 1,
+            "selectedComplexity": 0
+        },
+        {
+            "title": "Св-во сложения матриц (есть нулевой элемент)",
+            "complexity": [
+                {
+                    "easy": "0",
+                    "medium": "0",
+                    "hard": "0"
+                }
+            ],
+            "english_name": "cramer",
+            "isVisible": false,
+            "count": 1,
+            "selectedComplexity": 0
+        },
+        {
+            "title": "Св-во сложения матриц (есть обратный элемент)",
+            "complexity": [
+                {
+                    "easy": "0",
+                    "medium": "0",
+                    "hard": "0"
+                }
+            ],
+            "english_name": "gaussian",
+            "isVisible": false,
+            "count": 1,
+            "selectedComplexity": 0
+        }
+    ]
+}

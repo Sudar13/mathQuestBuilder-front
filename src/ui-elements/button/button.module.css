@@ -1,0 +1,138 @@
+.myButton {
+    min-width: max-content;
+    height: max-content;
+    border-radius: 4px;
+    padding: 10px 26px;
+    border: 1px solid transparent;
+    background-color: #14245E;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    font-family: 'Monsterrat';
+    transition: background-color .2s ease-out;
+}
+
+/* size big */
+.big {
+    width: max-content;
+    height: max-content;
+    padding: 14px 30px;
+    border-radius: 3px;
+    font-family: 'Monsterrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* empty */
+
+.empty {
+    background-color: #FFFFFF;
+    color: #000000;
+    transition: color .2s ease-out, border .2s ease-out, background-color .2s ease-out;
+    border: 1px solid #000000;
+}
+
+.empty:focus {
+    color: #FFFFFF;
+    border: none;
+}
+
+.empty:active {
+    color: #FFFFFF;
+    border: none;
+}
+
+
+
+.myButton:disabled {
+    background-color: #A9B3D5;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    cursor: not-allowed;
+}
+
+.myButton:enabled:hover {
+    background-color: #283872;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+}
+
+.myButton:enabled:focus {
+    background-color: #14245E;
+    border: 1px solid transparent;
+}
+
+.myButton:enabled:active {
+    background-color: #14245E;
+    border: 1px solid transparent;
+}
+
+.empty:checked {
+    background-color: #14245E;
+    border: none;
+}
+
+/* color orange */
+.orange {
+    background-color: #E87403;
+}
+
+.orange:enabled:hover {
+    background-color: #FFB746;
+}
+
+.orange:enabled:focus {
+    background-color: #E87403;
+}
+
+.orange:enabled:active {
+    background-color: #E87403;
+}
+
+.shadow {
+    box-shadow: 10px 10px #000000;
+    background-color: #14245E;
+    color: #FFFFFF;
+    background-image: url(../../img/arrow-right.svg);
+    background-position: 84% 52%;
+    background-repeat: no-repeat;
+    transition: box-shadow .2s ease-out, background-position .3s ease-out;
+    padding-right: 50px;
+}
+
+.shadow:disabled {
+    box-shadow: 10px 10px #283872;
+    background-color: #A9B3D5;
+    border: none;
+}
+
+.shadow:hover {
+    background-color: #283872;
+    border: none;
+    box-shadow: 10px 10px #0c163a;
+    background-position: 90% 52%;
+}
+
+.shadow:focus {
+    background-color: #14245E;
+    border: none;
+    box-shadow: 10px 10px #000000;
+    background-position: 84% 61%;
+}
+
+.shadow:active {
+    background-color: #14245E;
+    border: none;
+    box-shadow: 10px 10px #000000;
+    background-position: 90% 61%;
+}
+
+
+.active {
+    background-color: #14245E;
+    color: #FFFFFF;
+}
